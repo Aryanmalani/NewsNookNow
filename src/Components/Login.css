@@ -1,0 +1,96 @@
+/* General container style for Login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f9; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .login-box {
+    background-color: #fff; /* White background for form */
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-box h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #003366; /* Deep blue for headers */
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Light gray background for input */
+    font-size: 1em;
+  }
+  
+  .input-group input:focus {
+    border-color: #2575fc; /* Focused input border color */
+    outline: none;
+  }
+  
+  .error {
+    color: #f44336; /* Red for error messages */
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #2575fc; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #1d63c5; /* Darker blue on hover */
+  }
+  
+  .signup-link {
+    margin-top: 15px;
+    font-size: 1em;
+  }
+  
+  .signup-link a {
+    color: #2575fc; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-box {
+      width: 90%;
+      padding: 25px;
+    }
+  
+    h2 {
+      font-size: 1.8em;
+    }
+  
+    .input-group input, .login-btn {
+      font-size: 1em;
+    }
+  }
