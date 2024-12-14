@@ -14,7 +14,7 @@ import Signup from './Components/Signup';
 
 
 const App = () => {
-  const apiKey = 'pub_623410de08ba2d5f4de2d8f29f561fe5fdf51';
+  const apiKey = '82903259b9c84eedb59a9bc06d05786a';
   
   const [Progress, setProgress] = useState(0);
   const [selectedCountry, setSelectedCountry] = useState(
